@@ -13,9 +13,7 @@
 
   angular
     .module('app', [
-      'ngRoute',
-      'ngAnimate',
-      'ngMaterial'
+      'ngRoute'
     ])
     .config(config)
     .run(run);
